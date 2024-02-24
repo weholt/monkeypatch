@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include monkeypatch/static *
+recursive-include monkeypatch/templates *
