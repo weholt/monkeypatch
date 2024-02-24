@@ -12,17 +12,24 @@ https://cynthiakiser.com/blog/2022/01/06/trimming-wagtail-migration-cruft.html
 https://cynthiakiser.com/blog/2022/01/06/trimming-django-migration-cruft.html
 
 Tested with:
-- Python version 3.12.2
-- Django version 5.0.2
-- Wagtail version 6.0.1
+
+* Python version 3.12.2
+* Django version 5.0.2
+* Wagtail version 6.0.1
 
 Clone main repository:
 
 .. code-block:: bash
 
-    $ git clone https://github.com/weholt/monkeypatch.git
+    $ git clone https://github.com/weholt/monkeypatch.git    
     $ cd monkeypatch 
     $ pip install .
+
+Or
+
+.. code-block:: bash
+
+    $ pip install git+https://github.com/weholt/monkeypatch.git
 
 Add monkeypatch at the top of your installed apps:
 
