@@ -21,7 +21,7 @@ Clone main repository:
 
 .. code-block:: bash
 
-    $ git clone https://github.com/weholt/monkeypatch.git    
+    $ git clone https://github.com/weholt/wagtail-migration-monkeypatch.git    
     $ cd monkeypatch 
     $ pip install .
 
@@ -29,7 +29,7 @@ Or
 
 .. code-block:: bash
 
-    $ pip install git+https://github.com/weholt/monkeypatch.git
+    $ pip install git+https://github.com/weholt/wagtail-migration-monkeypatch.git
 
 Add monkeypatch at the top of your installed apps:
 
